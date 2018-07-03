@@ -32,10 +32,7 @@ setup(
         'Programming Language :: Python',
         'Topic :: Scientific/Engineering :: Physics',
     ],
-    entry_points = {
-        'console_scripts' : ['csv2db = forex_py.frxpy.commands.csv2db:csv2db'],
-    },
     setup_requires=['pytest-runner'],
-    test_require=['pytest'] 
+    tests_require=['pytest-cov', 'pytest-html', 'pytest', 'codecov'],    
 )
 

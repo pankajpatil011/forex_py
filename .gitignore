@@ -90,3 +90,6 @@ ENV/
 .pytest_cache/
 *~
 
+data/*
+
+!.gitkeep
