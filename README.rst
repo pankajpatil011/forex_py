@@ -28,9 +28,16 @@ CONTENTS
 * predict FOREX with deep learning.
 * get the best trading strategy with reinforcement learning.
 
+
+Requirements
+-----------
+
+* pytorch >= 0.4.0
+* pandas >= 0.23.1
+
+
 TODO
 ----------
-
 
 * add tensorboard for visulaization.
 * add Deeplearning.
